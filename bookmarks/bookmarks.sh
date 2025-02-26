@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to the bookmarks file
-BOOKMARKS_FILE="$HOME/scripts/web/bookmarks/bookmarks.txt"
+BOOKMARKS_FILE="$HOME/scripts/RofiWeb/bookmarks/bookmarks.txt"
 
 # Read the bookmarks from the file and show in rofi
 selected_url=$(cat "$BOOKMARKS_FILE" | rofi -dmenu -i -p "Select Bookmark")

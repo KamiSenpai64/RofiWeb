@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define paths to the other scripts
-BOOKMARKS_SCRIPT="$HOME/scripts/web/bookmarks/bookmarks.sh"
+BOOKMARKS_SCRIPT="$HOME/scripts/RofiWeb/bookmarks/bookmarks.sh"
 
 # Rofi prompt to select action (search the web or open bookmarks)
 action=$(echo -e "Search Web\nOpen Bookmarks" | rofi -dmenu -i -p "Choose Action")
