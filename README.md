@@ -24,17 +24,14 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 	```
 	git clone https://github.com/KamiSenpai64/RofiWeb.git
 2. Navigate to the directory:
-
-	```cd RofiWeb
-
+	```
+	cd RofiWeb
 3. Make the script executable (if applicable):
-
-	```chmod +x web-search.sh
-
+	```
+	chmod +x web-search.sh
 4. Add the script to your system's PATH or launch it directly from the terminal:
-
-	```./web-search.sh
-
+	```
+	./web-search.sh
 ## Usage
 
 - Run the script through Rofi by binding it to a keyboard shortcut 
