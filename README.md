@@ -36,19 +36,25 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 
 - Run the script through Rofi by binding it to a keyboard shortcut 
 
--[i3wm]
+- i3wm
 	For i3wm, you need to edit the config file inside ~/.config/i3/ and add the following line, with the keybind you desire and the file path you set, and reload i3wm config file ($mod+c by default)
+	
 	```
 	bindsym $mod+l exec /path/to/rofi-web.sh
--[dwm] 
+
+- dwm 
 	For dwm, you need to edit the config.h file, found in the directory where you downloaded dwm,add the following line with the keybind you desire and the file path you set, and recompile dwm with [make && sudo make install]
+
 	```
 	{ MODKEY, XK_l, spawn, SHCMD("/path/to/rofi-web.sh") },
--[hyprland]
+
+- hyprland
 	For Hyprland, you need to edit the hyprland.conf file inside ~/.config/hypr/hyprland.conf,add the following line with the keybind you desire and the file path you set, and reload hyprland with [hyprctl reload]
+
 	```
 	bind=SUPER, L, exec, /path/to/rofi-web.sh
 - Or run it manually from the terminal (from inside the RofiWeb directory)
+
 	```
 	./rofi-web.sh
 ## Configuration
