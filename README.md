@@ -2,7 +2,7 @@
 
 A simple web searcher built with **Rofi**, designed to quickly search the web directly from your Linux desktop environment. This tool is ideal for anyone who uses Rofi as a launcher and wants to search the web without opening a browser first.
 
-![Demo](https://github.com/KamiSenpai64/RofiWeb/untitled.gif)
+![alt text](https://github.com/KamiSenpai64/RofiWeb/untitled.gif)
 
 ## Features
 - Fast and efficient search integration with Rofi.
