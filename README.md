@@ -34,9 +34,11 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 
 - i3wm
 	For i3wm, you need to edit the config file inside ~/.config/i3/ and add the following line, with the keybind you desire and the file path you set, and reload i3wm config file ($mod+c by default)
+
 	```
 	bindsym $mod+l exec /path/to/rofi-web.sh
 	```
+
 - dwm 
 	For dwm, you need to edit the config.h file, found in the directory where you downloaded dwm,add the following line with the keybind you desire and the file path you set, and recompile dwm with `make && sudo make install`
 	```
