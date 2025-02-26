@@ -15,31 +15,31 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 
 ### Steps
 1. Clone this repository to your local machine:
-    	```bash
+    	```
     	git clone https://github.com/KamiSenpai64/RofiWeb.git
     	```
 2. Navigate to the directory:
-    	```bash
+    	```
     	cd RofiWeb
     	```
 3. Make the script executable (if applicable):
-    	```bash
+    	```
     	chmod +x web-search.sh
     	```
 
 4. Add the script to your system's PATH or launch it directly from the terminal:
-    	```bash
+    	```
     	./web-search.sh
     	```
 
 ## Usage
 - Run the script through Rofi by binding it to a keyboard shortcut 
 	{Example: i3wm}
-	```bash
+	```
 	"bindsym $mod+l exec /path/to/rofi-web.sh"
 	```
 - Or run it manually from the terminal
-   	```bash
+   	```
    	./rofi-web.sh
    	```
 ## Configuration
