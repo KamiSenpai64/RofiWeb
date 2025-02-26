@@ -4,15 +4,15 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 
 ![](https://github.com/KamiSenpai64/RofiWeb/blob/master/untitled.gif)
 
-## Features
+### Features
 
 - Fast and efficient search integration with Rofi.
 - Easily configurable and modular for bookmarks, different search engines and more
 - Lightweight and minimal setup.
 
-## Installation
+### Installation
 
-- Git Hook added. If you have hooks disabled, or you are not using a git client that supports hooks, install it manually using the install.sh script
+#Git Hook added. If you have hooks disabled, or you are not using a git client that supports hooks, install it manually using the install.sh script
 	
 	```
 	./install.sh
@@ -42,7 +42,7 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 	
 	``./web-search.sh``
 
-## Usage
+### Usage
 
 - Run the script through Rofi by binding it to a keyboard shortcut 
 
@@ -73,7 +73,7 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 	./rofi-web.sh
 	```
 
-## Configuration
+### Configuration
 
 - The script can be modified to your liking by changing the config files inside RofiWeb/:
 
