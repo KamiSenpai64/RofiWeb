@@ -21,17 +21,21 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 ### Steps
 
 1. Clone this repository to your local machine:
-	```
-	git clone https://github.com/KamiSenpai64/RofiWeb.git
+	
+	``git clone https://github.com/KamiSenpai64/RofiWeb.git``
+
 2. Navigate to the directory:
-	```
-	cd RofiWeb
+
+	``cd RofiWeb``
+
 3. Make the script executable (if applicable):
-	```
-	chmod +x web-search.sh
+
+	``chmod +x web-search.sh``
+
 4. Add the script to your system's PATH or launch it directly from the terminal:
-	```
-	./web-search.sh
+	
+	``./web-search.sh``
+
 ## Usage
 
 - Run the script through Rofi by binding it to a keyboard shortcut 
@@ -43,13 +47,13 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 	bindsym $mod+l exec /path/to/rofi-web.sh
 
 - dwm 
-	For dwm, you need to edit the config.h file, found in the directory where you downloaded dwm,add the following line with the keybind you desire and the file path you set, and recompile dwm with [make && sudo make install]
+	For dwm, you need to edit the config.h file, found in the directory where you downloaded dwm,add the following line with the keybind you desire and the file path you set, and recompile dwm with `make && sudo make install`
 
 	```
 	{ MODKEY, XK_l, spawn, SHCMD("/path/to/rofi-web.sh") },
 
 - hyprland
-	For Hyprland, you need to edit the hyprland.conf file inside ~/.config/hypr/hyprland.conf,add the following line with the keybind you desire and the file path you set, and reload hyprland with [hyprctl reload]
+	For Hyprland, you need to edit the hyprland.conf file inside ~/.config/hypr/hyprland.conf,add the following line with the keybind you desire and the file path you set, and reload hyprland with `hyprctl reload`
 
 	```
 	bind=SUPER, L, exec, /path/to/rofi-web.sh
