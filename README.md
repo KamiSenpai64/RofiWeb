@@ -65,6 +65,7 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 
 	```
 	./rofi-web.sh
+	```
 
 ## Configuration
 
