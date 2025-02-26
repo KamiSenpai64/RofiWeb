@@ -10,21 +10,21 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 - Easily configurable and modular for bookmarks, different search engines and more
 - Lightweight and minimal setup.
 
-### Installation
+# Installation
 
-# Git Hook added. If you have hooks disabled, or you are not using a git client that supports hooks, install it manually using the install.sh script
+### Git Hook added. If you have hooks disabled, or you are not using a git client that supports hooks, install it manually using the install.sh script
 	
 	```
 	./install.sh
 	```
 
-### Prerequisites
+## Prerequisites
 
 - [Rofi](https://github.com/davatorium/rofi) must be installed on your system.
 
 - A web browser for viewing the search results.
 
-### Steps
+## Steps
 
 1. Clone this repository to your local machine:
 
@@ -42,7 +42,7 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 	
 	``./web-search.sh``
 
-### Usage
+## Usage
 
 - Run the script through Rofi by binding it to a keyboard shortcut 
 
@@ -73,7 +73,7 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 	./rofi-web.sh
 	```
 
-### Configuration
+## Configuration
 
 - The script can be modified to your liking by changing the config files inside RofiWeb/:
 
