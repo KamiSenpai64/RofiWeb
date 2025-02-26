@@ -44,8 +44,10 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
    	```
 ## Configuration
 - The script can be modified to your liking by changing the config files inside RofiWeb/:
-	--- Default browser is Firefox but can be changed to anything else.
-	--- Default search engine is Google but can be changed to anything else.
+
+- Default browser is Firefox but can be changed to anything else.
+
+- Default search engine is Google but can be changed to anything else.
 
 ## Why?
 - I guess some people might ask: Why would I use this instead of opening a browser and searching for whatever I need?
