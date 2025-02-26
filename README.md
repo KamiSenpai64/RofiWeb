@@ -36,7 +36,7 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 - Run the script through Rofi by binding it to a keyboard shortcut 
 	{Example: i3wm}
 	```
-	"bindsym $mod+l exec /path/to/rofi-web.sh"
+	bindsym $mod+l exec /path/to/rofi-web.sh
 	```
 - Or run it manually from the terminal
    	```
