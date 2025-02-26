@@ -22,7 +22,8 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 
 1. Clone this repository to your local machine:
 
-	```git clone https://github.com/KamiSenpai64/RofiWeb.git
+	```
+	git clone https://github.com/KamiSenpai64/RofiWeb.git
 
 2. Navigate to the directory:
 
