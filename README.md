@@ -13,7 +13,9 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 # Installation
 
 ### Git Hook added. If you have hooks disabled, or you are not using a git client that supports hooks, install it manually using the install.sh script
-	``./install.sh``
+	
+	./install.sh
+
 ## Prerequisites
 
 - [Rofi](https://github.com/davatorium/rofi) must be installed on your system.
