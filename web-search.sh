@@ -31,3 +31,4 @@ elif [ "$action" == "Open Bookmarks" ]; then
     "$BOOKMARKS_SCRIPT"
 fi
 
+# test
