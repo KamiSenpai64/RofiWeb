@@ -38,7 +38,7 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 
 4. Add the script to your system's PATH or launch it directly from the terminal:
 	
-	``./web-search.sh``
+	``./web-search.sh firefox google``
 
 ## Usage
 
@@ -48,34 +48,34 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 	For i3wm, you need to edit the config file inside ~/.config/i3/ and add the following line, with the keybind you desire and the file path you set, and reload i3wm config file ($mod+c by default)
 
 	```
-	bindsym $mod+l exec /path/to/rofi-web.sh
+	bindsym $mod+l exec /path/to/rofi-web.sh browser search_engine
 	```
 
 - dwm 
 	For dwm, you need to edit the config.h file, found in the directory where you downloaded dwm,add the following line with the keybind you desire and the file path you set, and recompile dwm with `make && sudo make install`
 	
 	```
-	{ MODKEY, XK_l, spawn, SHCMD("/path/to/rofi-web.sh") },
+	{ MODKEY, XK_l, spawn, SHCMD("/path/to/rofi-web.sh browser search_engine") },
 	```
 
 - hyprland
 	For Hyprland, you need to edit the hyprland.conf file inside ~/.config/hypr/hyprland.conf,add the following line with the keybind you desire and the file path you set, and reload hyprland with `hyprctl reload`
 	
 	```
-	bind=SUPER, L, exec, /path/to/rofi-web.sh
+	bind=SUPER, L, exec, /path/to/rofi-web.sh browser search_engine
 	```
 
 - Or run it manually from the terminal (from inside the RofiWeb directory)
 	
 	```
-	./rofi-web.sh
+	./rofi-web.sh browser search_engine
 	```
 
 ## Configuration
 
 - The script can be modified to your liking by changing the config files inside RofiWeb/:
 
-	- Default browser is Firefox but can be changed to anything else.
+	- There is no default browser, can be set to anyone.
 
 	- Default search engine is Google but can be changed to anything else.
 	
