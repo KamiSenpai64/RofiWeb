@@ -45,7 +45,7 @@ A simple web searcher built with **Rofi**, designed to quickly search the web di
 - Run the script through Rofi by binding it to a keyboard shortcut 
 
 - i3wm
-	For i3wm, you need to edit the config file inside ~/.config/i3/ and add the following line, with the keybind you desire and the file path you set, and reload i3wm config file ($mod+c by default)
+	For i3wm, you need to edit the config file inside ~/.config/i3/ and add the following line, with the keybind you desire and the file path you set, and reload i3wm config file ($mod+l by default)
 
 	```
 	bindsym $mod+l exec /path/to/rofi-web.sh browser search_engine
