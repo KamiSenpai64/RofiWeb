@@ -5,8 +5,8 @@ SCRIPT_DIR=$(dirname "$0")
 BOOKMARKS_SCRIPT="$SCRIPT_DIR/bookmarks/bookmarks.sh"
 
 # Browser and Search Engine Selected
-BROWSER=$1
-SEARCH_ENGINE=$2
+BROWSER="firefox"
+SEARCH_ENGINE="google"
 
 # Rofi prompt to select action (search the web or open bookmarks)
 action=$(echo -e "Search Web\nOpen Bookmarks" | rofi -dmenu -i -p "Choose Action")
@@ -55,5 +55,3 @@ elif [ "$action" == "Open Bookmarks" ]; then
     # Run the bookmarks script
     "$BOOKMARKS_SCRIPT" "$BROWSER"
 fi
-
-# test
