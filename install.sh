@@ -85,3 +85,5 @@ echo -e "${GREEN}Thank you for using RofiWeb!${RESET}"
 
 # Log completion
 log_action "RofiWeb installation complete."
+
+# https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar
